@@ -1,38 +1,365 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Pretendard;
+}
+body {
+  background-color: #f8faff;
+}
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.Loading img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.App .ant-flex {
+  width: 100%;
+  background-color: #f8faff;
+}
+.App .ant-flex .formLogin {
+  width: 500px;
+  height: 552px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 8px #e5eaf5;
+}
+.App .ant-flex .formLogin {
+  padding: 50px;
+  background-color: white;
+}
+.App .ant-flex .formLogin .Title h2 {
+  width: 100%;
+  color: #222;
+  font-family: Pretendard;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.App .ant-flex .formLogin .Title h2 span {
+  color: #2667ff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.App .ant-flex .formLogin .Title h2 span:nth-child(2) {
+  color: #222;
+  display: inline-block;
+  width: 280px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .ant-flex .formLogin .formContent {
+  width: 100%;
+  margin-top: 50px;
+  height: 100%;
+}
+.App .ant-flex .formLogin .formContent input#id {
+  padding: 14px 10px;
+  color: #777;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.App .ant-flex .formLogin .formContent input#id:focus {
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .ant-flex .formLogin .formContent label.label_ID {
+  color: #222;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .ant-flex .formLogin .formContent input#password {
+  padding: 14px 10px;
+  color: #777;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.App .ant-flex .formLogin .formContent input#password:focus {
+  outline: none;
+}
+.App .ant-flex .formLogin .formContent label.label_Password {
+  color: #222;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.App .ant-flex .formLogin .formContent .btn_Login {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 16px 15px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 8px;
+  background: #2667ff;
+  border: none;
+}
+.App .ant-flex .formLogin .formContent .btn_Login:hover {
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+  background-color: #f8faff;
   display: flex;
   flex-direction: column;
+}
+.container .header {
+  display: flex;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+.container .header h1 {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.44px;
+}
+.container .container_Bill {
+  width: 352px;
+  /* height: 608px; */
+  padding-left: 30px;
+  flex-shrink: 0;
+  padding-bottom: 30px;
+  gap:12px;
+}
+.container .container_Bill .Bill_Detail {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  padding-top: 26px;
+}
+.container .container_Bill .Bill_Detail .time {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(203, 214, 232, 0.5);
+  width: 350px;
+  flex-shrink: 0;
+  padding-bottom: 24px;
+}
+.container .container_Bill .Bill_Detail .time .idBill {
+  padding-left: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+.container .container_Bill .Bill_Detail .time .idBill img {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 7px;
+}
+.container .container_Bill .Bill_Detail .time .idBill p {
+  color: #111;
+  font-family: Pretendard;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 75px;
+  height: 34px;
+}
+.container .container_Bill .Bill_Detail .time .detailTime {
+  margin-right: 22px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.container .container_Bill .Bill_Detail .time .detailTime .hours {
+  display: flex;
+  height: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+}
+.container .container_Bill .Bill_Detail .time .detailTime .hours p {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #2667ff;
+}
+.container .container_Bill .Bill_Detail .time .detailTime .hours img {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.container .container_Bill .Bill_Detail .time .detailTime .date {
+  width: 127px;
+  height: 14px;
+  color: #777;
+  text-align: right;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink {
+  padding: 0px 31px;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .ContainerDrink {
+  border-bottom: 1px dotted #ccc;
+  padding: 20px 0px;
+}
+
+.container .container_Bill .Bill_Detail .Detail_Drink .NameDrink {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .NameDrink.OptionDrink {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.container
+  .container_Bill
+  .Bill_Detail
+  .Detail_Drink
+  .NameDrink.OptionDrink
+  p
+  img {
+  margin-right: 6px;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .NameDrink.OptionDrink p {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 400;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .NameDrink p {
+  overflow: hidden;
+  color: #222;
+  text-overflow: ellipsis;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .NameDrink div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .Total {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.container .container_Bill .Bill_Detail .Detail_Drink .Total p {
+  color: #111;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+.container .container_Bill .Bill_Detail .AddCart {
+  background-color: #2667ff;
+  padding: 22px 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+.container .container_Bill .Bill_Detail .AddCart  {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 7px;
 }
-
-.App-link {
-  color: #61dafb;
+.container .container_Bill .Bill_Detail .AddCart div {
+  color: #fff;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container
+  .container_Bill
+  .Bill_Detail
+  .Detail_Drink
+  .NameDrink
+  div
+  p:last-child {
+  color: #222;
+  text-align: right;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+.footerReception {
+  margin-top: auto;
+  display: flex;
+  padding: 35px 30px;
+  align-items: flex-start;
+  gap: 20px;
+  background: #7689a9;
+  box-shadow: 1px 0px 8px 0px #e5eaf5;
+  border-top: 1px solid #e7ecf3;
+  color: #fff;
+}
+.footerReception p {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+.footerReception span {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin-left: 20px;
 }
