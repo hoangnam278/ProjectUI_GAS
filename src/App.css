@@ -150,12 +150,12 @@ body {
   letter-spacing: -0.44px;
 }
 .container .container_Bill {
-  width: 352px;
-  /* height: 608px; */
   padding-left: 30px;
   flex-shrink: 0;
   padding-bottom: 30px;
   gap:12px;
+  overflow: hidden;
+  overflow-x: auto;
 }
 .container .container_Bill .Bill_Detail {
   background-color: white;
@@ -196,6 +196,8 @@ body {
   line-height: normal;
   width: 75px;
   height: 34px;
+  display: flex;
+  align-items: center;
 }
 .container .container_Bill .Bill_Detail .time .detailTime {
   margin-right: 22px;
@@ -361,5 +363,4 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.6px;
-  margin-left: 20px;
 }

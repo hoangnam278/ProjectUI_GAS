@@ -14,803 +14,1736 @@ function BillUser() {
         </div>
       </div>
 
-      <div className=" container_Bill" style={{display:"flex"}}>
-        <div className="Bill_Detail">
-          <div className="time">
-            <div className="idBill">
-              <img src={iconNote} alt="ID_BILL" />
-              <p>148</p>
-            </div>
-            <div className="detailTime">
-              <div className="hours">
-                <img src={iconClock} alt="Clock" />
-                <p>09:35</p>
+      <div className=" container_Bill">
+        <div style={{ display: "flex", gap: "20px",width:"2800px",flexWrap:"wrap"}}>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="date">Date : 20231019153233</div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="Detail_Drink">
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
                 </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <div className="date">Date : 20231019153233</div>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
                 <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <p>13,000원</p>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="Total">
-              <p>아이스아메리카노</p>
-              <p>13,000원</p>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="AddCart">
-            <img src={iconCart} alt="Cart" />
-            <div>준비완료</div>
-          </div>
-        </div>
-        <div className="Bill_Detail">
-          <div className="time">
-            <div className="idBill">
-              <img src={iconNote} alt="ID_BILL" />
-              <p>148</p>
-            </div>
-            <div className="detailTime">
-              <div className="hours">
-                <img src={iconClock} alt="Clock" />
-                <p>09:35</p>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="date">Date : 20231019153233</div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
             </div>
-          </div>
-          <div className="Detail_Drink">
-            <div className="ContainerDrink">
-              <div className="NameDrink">
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
                 <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <p>13,000원</p>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="Total">
-              <p>아이스아메리카노</p>
-              <p>13,000원</p>
-            </div>
-          </div>
-          <div className="AddCart">
-            <img src={iconCart} alt="Cart" />
-            <div>준비완료</div>
-          </div>
-        </div>
-        <div className="Bill_Detail">
-          <div className="time">
-            <div className="idBill">
-              <img src={iconNote} alt="ID_BILL" />
-              <p>148</p>
-            </div>
-            <div className="detailTime">
-              <div className="hours">
-                <img src={iconClock} alt="Clock" />
-                <p>09:35</p>
-              </div>
-              <div className="date">Date : 20231019153233</div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="Detail_Drink">
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
                 </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <div className="date">Date : 20231019153233</div>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
                 <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <p>13,000원</p>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="Total">
-              <p>아이스아메리카노</p>
-              <p>13,000원</p>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="AddCart">
-            <img src={iconCart} alt="Cart" />
-            <div>준비완료</div>
-          </div>
-        </div>
-        <div className="Bill_Detail">
-          <div className="time">
-            <div className="idBill">
-              <img src={iconNote} alt="ID_BILL" />
-              <p>148</p>
-            </div>
-            <div className="detailTime">
-              <div className="hours">
-                <img src={iconClock} alt="Clock" />
-                <p>09:35</p>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="date">Date : 20231019153233</div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
             </div>
-          </div>
-          <div className="Detail_Drink">
-            <div className="ContainerDrink">
-              <div className="NameDrink">
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
                 <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <p>13,000원</p>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="Total">
-              <p>아이스아메리카노</p>
-              <p>13,000원</p>
-            </div>
-          </div>
-          <div className="AddCart">
-            <img src={iconCart} alt="Cart" />
-            <div>준비완료</div>
-          </div>
-        </div>
-        <div className="Bill_Detail">
-          <div className="time">
-            <div className="idBill">
-              <img src={iconNote} alt="ID_BILL" />
-              <p>148</p>
-            </div>
-            <div className="detailTime">
-              <div className="hours">
-                <img src={iconClock} alt="Clock" />
-                <p>09:35</p>
-              </div>
-              <div className="date">Date : 20231019153233</div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="Detail_Drink">
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
                 </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <div className="date">Date : 20231019153233</div>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
                 <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <p>13,000원</p>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="Total">
-              <p>아이스아메리카노</p>
-              <p>13,000원</p>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="AddCart">
-            <img src={iconCart} alt="Cart" />
-            <div>준비완료</div>
-          </div>
-        </div>
-        <div className="Bill_Detail">
-          <div className="time">
-            <div className="idBill">
-              <img src={iconNote} alt="ID_BILL" />
-              <p>148</p>
-            </div>
-            <div className="detailTime">
-              <div className="hours">
-                <img src={iconClock} alt="Clock" />
-                <p>09:35</p>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
               </div>
-              <div className="date">Date : 20231019153233</div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
             </div>
-          </div>
-          <div className="Detail_Drink">
-            <div className="ContainerDrink">
-              <div className="NameDrink">
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
                 <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
+                <p>13,000원</p>
               </div>
             </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="ContainerDrink">
-              <div className="NameDrink">
-                <p>아이스아메리카노</p>
-                <div>
-                  <p>1</p>
-                  <p>2,500원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  달게
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  얼음많이
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-              <div className="OptionDrink NameDrink">
-                <p>
-                  <img src={iconAttach} alt="" />
-                  1샷
-                </p>
-                <div>
-                  <p>0원</p>
-                </div>
-              </div>
-            </div>
-            <div className="Total">
-              <p>아이스아메리카노</p>
-              <p>13,000원</p>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
             </div>
           </div>
-          <div className="AddCart">
-            <img src={iconCart} alt="Cart" />
-            <div>준비완료</div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
+              </div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
+            </div>
+          </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
+              </div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
+            </div>
+          </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
+              </div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
+            </div>
+          </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
+              </div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
+            </div>
+          </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
+              </div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
+            </div>
+          </div>
+          <div className="Bill_Detail">
+            <div className="time">
+              <div className="idBill">
+                <img src={iconNote} alt="ID_BILL" />
+                <p>148</p>
+              </div>
+              <div className="detailTime">
+                <div className="hours">
+                  <img src={iconClock} alt="Clock" />
+                  <p>09:35</p>
+                </div>
+                <div className="date">Date : 20231019153233</div>
+              </div>
+            </div>
+            <div className="Detail_Drink">
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="ContainerDrink">
+                <div className="NameDrink">
+                  <p>아이스아메리카노</p>
+                  <div>
+                    <p>1</p>
+                    <p>2,500원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    달게
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    얼음많이
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+                <div className="OptionDrink NameDrink">
+                  <p>
+                    <img src={iconAttach} alt="" />
+                    1샷
+                  </p>
+                  <div>
+                    <p>0원</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Total">
+                <p>아이스아메리카노</p>
+                <p>13,000원</p>
+              </div>
+            </div>
+            <div className="AddCart">
+              <img src={iconCart} alt="Cart" />
+              <div>준비완료</div>
+            </div>
           </div>
         </div>
       </div>
