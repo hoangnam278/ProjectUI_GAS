@@ -3,19 +3,22 @@ import iconNote from "../images/Note.svg";
 import iconClock from "../images/clock.png";
 import iconAttach from "../images/Attach.svg";
 import iconCart from "../images/Cart.svg";
+import iconLogout from "../images/Logout.png"
+
 function BillUser() {
+
   return (
     <div className="container">
-      <div className="header">
+      <div className="header" >
         {" "}
         <h1>주문 목록</h1>
         <div className="idUser">
-          <div className="name">csacascascas</div>
+          <div className="name">세종청사 9동 프레시오네</div>
+          <img src={iconLogout} alt="Logout" />
         </div>
       </div>
-
       <div className=" container_Bill">
-        <div style={{ display: "flex", gap: "20px",width:"2800px",flexWrap:"wrap"}}>
+        <div  className="scroll_container">
           <div className="Bill_Detail">
             <div className="time">
               <div className="idBill">

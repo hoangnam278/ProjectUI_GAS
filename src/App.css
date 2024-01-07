@@ -4,9 +4,6 @@
   padding: 0;
   font-family: Pretendard;
 }
-body {
-  background-color: #f8faff;
-}
 .App {
   width: 100vw;
   height: 100vh;
@@ -149,17 +146,48 @@ body {
   line-height: normal;
   letter-spacing: -0.44px;
 }
+.container .header .idUser {
+  display: flex;
+  width: 408.5px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 21px;
+}
+.container .header .idUser div {
+  color: #333;
+  text-align: right;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+.container .header .idUser img{
+  width: 36px;
+height: 36px;
+flex-shrink: 0;
+}
 .container .container_Bill {
-  padding-left: 30px;
+  margin-left: 30px;
   flex-shrink: 0;
-  padding-bottom: 30px;
-  gap:12px;
+  gap: 12px;
   overflow: hidden;
   overflow-x: auto;
 }
+
+.container .container_Bill .scroll_container {
+  display: flex;
+  gap: 20px;
+  width: 1900px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 680px;
+  margin-bottom: 20px;
+}
+
 .container .container_Bill .Bill_Detail {
   background-color: white;
-  width: 350px;
   border-radius: 10px;
   padding-top: 26px;
 }
@@ -305,23 +333,30 @@ body {
 }
 .container .container_Bill .Bill_Detail .AddCart {
   background-color: #2667ff;
-  padding: 22px 0px;
+  padding: 22px 125px;
   border-radius: 0px 0px 10px 10px;
-}
-.container .container_Bill .Bill_Detail .AddCart  {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
 }
+.container .container_Bill .Bill_Detail .AddCart img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: -1px;
+}
 .container .container_Bill .Bill_Detail .AddCart div {
   color: #fff;
   font-family: Pretendard;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.4px;
-  font-size: 20px;
 }
 .container
   .container_Bill
